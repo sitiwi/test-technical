@@ -27,7 +27,7 @@ const Home = () => {
 		<div className="Home">
 			<div className="List-genres">
 				<Col sm>
-				{genreData.map((genre) => ( <button><Link to={`/detail/${detailData.genres}`}>{genre.name}</Link></button>))}
+				{genreData.map((genre) => ( <button className="btn"><Link to={`/detail/${detailData.genres}`}>{genre.name}</Link></button>))}
 				</Col>
 			</div>
 			<div>
