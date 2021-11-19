@@ -20,14 +20,16 @@ const Detail = () => {
 			<div>
 				<button className="btn"><Link to="/">Back</Link></button>
 			</div> 
-			<div className="gambar">
-				<img src={`http://image.tmdb.org/t/p/w154/${detailData.backdrop_path}`}/>
-				<h5>{detailData.title}</h5>
-				<h6>{detailData.release_date}</h6>
-				<p>{detailData.overview}</p>
+			<div className="card-detail">
+				<div className="gambar">
+					<img src={`http://image.tmdb.org/t/p/w154/${detailData.backdrop_path}`}/>
+					<h5>{detailData.title}</h5>
+					<h6>{detailData.release_date}</h6>
+					<p className="text-align"> {detailData.overview}</p>
+				</div>
 			</div>
 		</div>
-		)
-	}
+	)
+}
 
 export default Detail;
