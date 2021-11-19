@@ -1,3 +1,10 @@
+#Halaman utama file : 
+folder SRC > Pages > home.js (halaman awal)
+detail film : 
+folder SRC > Pages > detail.js 
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
