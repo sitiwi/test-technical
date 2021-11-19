@@ -13,6 +13,19 @@
 .List-genres{
   margin: 20px 0;
 }
+.btn{
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  background-color: skyblue;
+  border-radius: 4px;
+  margin: 0 5px;
+}
+
+.gambar img {
+    height: 300px;
+    width: auto;
+}
 .card-movie.col-lg-3{
   background-color: whitesmoke;
   padding: 20px;
