@@ -3,6 +3,8 @@ folder SRC > Pages > home.js (halaman awal)
 detail film : 
 folder SRC > Pages > detail.js 
 
+Penyimpanan API di SRC > Redux > action > movie.js
+
 
 
 # Getting Started with Create React App
