@@ -8,7 +8,9 @@
 }
 
 .Home{
-  padding: 40px;
+  padding: 30px;
+  display: flex;
+  text-decoration: none;
 }
 .List-genres{
   margin: 20px 0;
@@ -19,7 +21,7 @@
   color: white;
   background-color: skyblue;
   border-radius: 4px;
-  margin: 0 5px;
+  margin: 10px 5px;
 }
 
 .gambar img {
@@ -33,6 +35,7 @@
   margin: 20px;
   border-radius: 20px;
   box-shadow: 5px 5px #c8c8c863;
+  display: flex;
 }
 
 .Title,.Rating,.Release {
